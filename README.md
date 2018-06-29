@@ -9,7 +9,7 @@ Creates a new Git repository in the current directory. In addition, a directory 
 ``` git config --global --list ```
 List all the global config for ALL Git project
 
-``` git config --list
+``` git config --list ```
 List the config this git project only
 
 * Remember to config user.name and user.eamil for your git project, both of them should the same as Github/GitLab username and email *
