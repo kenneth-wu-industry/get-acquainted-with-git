@@ -12,9 +12,9 @@ List all the global config for ALL Git project
 ``` git config --list ```
 List the config this git project only
 
-* Remember to config user.name and user.eamil for your git project, both of them should the same as Github/GitLab username and email *
+**Remember to config user.name and user.eamil for your git project, both of them should the same as Github/GitLab username and email**
 
-You may need remove existing Github/GitLab username and password in *Control Panel -> User Accounts -> Credential Manager*  in Windows enviroment
+You may need to remove existing Github/GitLab username and password in *Control Panel -> User Accounts -> Credential Manager*  in Windows enviroment
 
 
 
