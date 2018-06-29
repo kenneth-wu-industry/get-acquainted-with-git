@@ -5,6 +5,20 @@ Get Acquainted With Git[*](#this-just-covers-some-basic-git-commands-doesnt-cove
 ```git init```
 Creates a new Git repository in the current directory. In addition, a directory named **.git** is added to the folder. This folder holds all the Git history and information for the repo. To get rid of the repo, just delete the .git folder
 
+#### Important Config After git init
+``` git config --global --list ```
+List all the global config for ALL Git project
+
+``` git config --list
+List the config this git project only
+
+* Remember to config user.name and user.eamil for your git project, both of them should the same as Github/GitLab username and email *
+
+You may need remove existing Github/GitLab username and password in *Control Panel -> User Accounts -> Credential Manager*  in Windows enviroment
+
+
+
+
 ```git status```
 Show me the current status of the repository. Shows
  
